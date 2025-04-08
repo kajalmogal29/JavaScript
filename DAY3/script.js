@@ -1,0 +1,1 @@
+alert("Welcoe to learn data types in js")
