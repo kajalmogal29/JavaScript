@@ -37,6 +37,24 @@
 // console.log(d)
 
 // MODULUS ASSIGNMENT OPERATOR
-let a = 50
-a %= 5
-console.log(a)
+// let a = 50
+// a %= 5
+// console.log(a)
+
+//COMPARISON OPERATORS
+
+// DOUBLE EQUAL
+
+// let a = 5
+// let b = 8
+// console.log(a == b)
+
+// NOT EQUAL TO
+
+// let a = 5
+// let b = 8
+// console.log(a != b)
+
+let abc = "apple"
+let xyz = "banana"
+console.log(abc == xyz) // false
