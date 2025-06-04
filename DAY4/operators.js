@@ -10,6 +10,5 @@ console.log(a*b)
 //DIVISION
  console.log(a/b)
 
- //MODULO
+ //MODULUs
  console.log(a%b)
- 
