@@ -55,6 +55,16 @@
 // let b = 8
 // console.log(a != b)
 
-let abc = "apple"
-let xyz = "banana"
-console.log(abc == xyz) // false
+// let abc = "apple"
+// let xyz = "banana"
+// console.log(abc == xyz) // false
+
+// STRICT EQUAL TO / TRIPAL EQUAL TO
+// let a = 5
+// let b = 5
+// console.log(a === b) // true
+
+// let abc = 1234
+// let xyz = "1234"
+// console.log(abc === xyz) // false
+
