@@ -8,8 +8,12 @@
 // let tag_line = "Welcome to JavaScript"
 // console.info(tag_line)
 
-let rule = "Keep Silence"
-console.warn(rule)
+// let rule = "Keep Silence"
+// console.warn(rule)
 
-let abc = "something went wrong"
-console.error(abc)
+// let abc = "something went wrong"
+// console.error(abc)
+
+// console.clear()
+
+
