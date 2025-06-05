@@ -1,0 +1,18 @@
+IN CSS we add properties in normal words 
+like : margin-left , margin-right, margin-top, margin-bottom, padding-left, padding-right, padding-top, padding -bottom, border-left, border-right, border-top, border-bottom, width, height, background-color
+
+BUt in js we add properties in Camale Case 
+like : marginLeft , marginRight, marginTop, marginBottom, paddingLeft, paddingRight, paddingTop, paddingBottom, borderLeft, borderRight , borderTop, borderBottom, width, height, backgroundColor .
+
+
+we can access  the elements with the help of :
+// getElementById
+// getElementsByClassName
+// getElementsByTagName
+// querySelector
+// querySelectorAll
+
+change the style of the element with the help of :
+//text = innerText
+//html = innerHTML
+//value = value
