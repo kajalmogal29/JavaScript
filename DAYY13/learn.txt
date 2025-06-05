@@ -48,3 +48,39 @@ Use the `delete` operator to remove a property from an object.
 delete obj.name; // Removes the 'name' property
 console.log(obj); // Output: { age: 18, city: "Nashik" }
 
+
+
+
+//*********************************************************************//
+//*********************************************************************//
+
+                              STRINGS
+
+
+ str.length = return the length of the string
+
+str.toUpperCase() : convert string into upperCase
+
+str.toLowerCase() : convert string into lowerCase
+
+str.includes(substring) : checks if the string contains the specified substring
+
+str.indexOf(substring) : returns the index of the first occurrence of the substring
+
+str.slice(start, end) : extracts a section of the string and returns it as a new string
+
+str.replace(searchValue, newValue) : replaces the first occurrence of searchValue with newValue
+
+str.split(separator) : splits the string into an array of substrings
+
+str.trim() : removes whitespace from both ends of the string
+
+str.charAt(index) : returns the character at the specified index
+
+str.concat(string2) : joins two or more strings
+
+str.repeat(count) : returns a new string with a specified number of copies of the string
+
+str.startsWith(substring) : checks if the string starts with the specified substring
+
+str.endsWith(substring) : checks if the string ends with the specified substring                            
