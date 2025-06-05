@@ -1,0 +1,59 @@
+1. Arrow Function:
+
+     ---A concise way to write functions using the => syntax.
+
+Example:
+
+   const add = (a, b) => a + b;
+   console.log(add(2, 3)); // Output: 5
+
+
+2. IIFE (Immediately Invoked Function Expression)
+
+     --- A function that runs as soon as it is defined.
+
+Example:
+        (function () {
+               console.log("This is an IIFE function!");
+        })();
+
+
+3. Callback Function
+
+     --- A function passed as an argument to another function.
+
+Example:
+         function greet(name, callback) {
+             console.log("Hello, " + name);
+              callback();
+         }
+
+       function sayBye() {
+              console.log("Goodbye!");
+        }
+          
+        greet("Vrushali", sayBye);
+
+
+4. Higher Order Function
+
+      --- A function that takes another function as an argument or returns a function.
+
+Example:
+
+      function multiplyBy(factor) {
+         return function (number) {
+          return number * factor;
+       };
+       }
+
+      const double = multiplyBy(2);
+      console.log(double(5)); // Output: 10
+
+
+
+Difference between them:
+- Arrow Function: Short syntax for writing functions, does not have its own 'this'.
+- IIFE: Function that executes immediately after it is defined, often used to create a private scope.
+- Callback Function: Function passed as an argument to another function, used for asynchronous operations or event handling.
+- Higher Order Function: Function that takes one or more functions as arguments or returns a function, used for abstraction and functional programming.
