@@ -1,0 +1,25 @@
+EVENTS 
+-- There are many types of events in js.
+such as click, mouseover, mouseout, mousemove, keydown, keyup, keypress, load, unload, resize, scroll, etc.
+-- We can use event listeners to handle these events.
+-- Event listeners are functions that are called when an event occurs.
+
+// get the elements
+// add event
+// name_of_event.addEventListener
+
+addEventListener needs two things :
+
+addEventListener : 1] name of the event
+                   2] function
+
+-- We can add event listeners to elements using the addEventListener() method.
+-- The addEventListener() method takes two arguments: the event type and the event listener function.
+-- The event listener function is called when the event occurs.
+ 
+ // Example of event listener
+ document.addEventListener("click", function(){
+    console.log("You clicked the document");
+    });
+
+    
