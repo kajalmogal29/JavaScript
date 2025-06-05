@@ -1,2 +1,20 @@
 SWITCH statement
 ==>  switch statement is use to execute different block of code based on value of expression.
+
+// Example:
+let score = 75;
+let grade;
+
+if (score >= 90) {
+  grade = 'A';
+} else if (score >= 80) {
+  grade = 'B';
+} else if (score >= 70) {
+  grade = 'C'; // This block executes because 75 >= 90 is false, 75 >= 80 is false, but 75 >= 70 is true.
+} else if (score >= 60) {
+  grade = 'D';
+} else {
+  grade = 'F';
+}
+
+console.log("Your grade is: " + grade); // Output: Your grade is: C
