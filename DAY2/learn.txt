@@ -1,0 +1,15 @@
+
+letters and Digit = (a to z) (A to Z) (0 to 9)
+
+speciall Chars = "_" 
+
+no space = " "  //dont add empty space 
+
+ key words = meaningful word in javascript 
+
+ var ,let ,const 
+
+
+variable must be start with a letters 
+
+ don't use  keyword

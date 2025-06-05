@@ -1,0 +1,27 @@
+LEARN ABOUT IDENTIFIERS AND DOCUMENT KEYWORD
+
+Identifier : "yese keyword jiska phle se kuch meaning hee";
+            -- WHich word has meaning already defined that work called as Identifier
+ 
+
+
+// learn about document keyword 
+  
+  -- document object is a global object
+  -- when we console.log() document  we get hole html page 
+  -- when we write document.title  we get our page title
+
+ we also change title using
+
+    Syntax :  document.title = "random value"
+
+    Example : document.title = "change Title"
+
+** document.body  gives all 
+   <body> 
+   </body>
+
+document.write("hello world") added in last of body 
+
+
+

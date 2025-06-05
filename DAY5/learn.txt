@@ -1,0 +1,68 @@
+
+LEARN ABOUT ASSIGNMENT OPERATORS :
+
+    A ]  =   : assignment operator 
+      
+      eg : let a = 10;
+    
+    B] += : addition assignment operator
+      
+      eg :  let x =12
+            // x = x +10  x+=10
+
+    C] -= : subtraction assignment operator
+
+       eg : let y = 10
+            // y = y -2  y-=2
+
+    D ] *= : Multiplication assignment operator
+
+       eg :  let z = 12
+             // z= z * 2   z*= 2 
+
+    E ] /= : Division assignment operator
+
+       eg : let d = 12
+       // d = d / 2    d/=2
+    
+    F ] %= : Modulus assignment operator
+
+       eg : let e = 12
+       // e = e % 2    e%=2
+
+
+COMPARISIONS OPERATORS  :  
+------------- return every time boolean values (TRUE , FALSE) 
+  
+  1]  double equal (==):
+       eg : 2 == 2  ret  TRUE  
+            2 == 3 ret FALSE
+            
+  2 ] not Equal (!=) :
+        eg : 2 != 2 ret FALSE
+             2 != 3 ret TRUE
+ 
+ 3] strict Equal // triple equal  to (===) :
+     eg : 2 == "2"  ret TRUE
+          2 === "2"  ret FALSE
+
+ 4 ] strict Not Equal (!==) : 
+    eg:  2 != "2" ret FALSE
+      2 !== "2" ret FALSE
+      3 ! == "3" ret TRUE
+
+ 5] Greater Than (>) :
+    eg : 10 > 20 ret FALSE
+         20 > 10 ret TRUE
+
+ 6] less Than (<) : 
+     eg : 10 < 20 ret TRUE
+         20 < 10 ret FALSE
+
+ 7] Greater Than or equal to (>=) :
+     eg  :  12 > 12  ret FALSE
+           12 >= 12 ret TRUE
+
+ 8 ] less Than or equal to (<=):
+     eg : 12 < 12  ret FALSE
+          12 <= 12 ret TRUE 

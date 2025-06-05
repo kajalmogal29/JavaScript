@@ -1,0 +1,11 @@
+Start to learn javascript
+
+
+1. alert(" ");
+    alert(" ") is use to pop up on our web page before loading another web page content
+
+
+
+
+2. console.log();
+    console.log() is use to print any statement in javascript

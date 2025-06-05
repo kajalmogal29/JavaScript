@@ -1,0 +1,32 @@
+Data Types
+
+mainly Two types
+
+1] Primitive Data
+    1]. Number 
+      eg : 12 ,1 ,2 ,3 
+    
+    2]. String = sequence or collection of characters
+      eg : "easyCode"
+
+    3] Boolean 
+      eg : true or false 
+    
+    4] Null
+       let a = Null
+
+    5] undefined
+      let a 
+
+
+2] Non-Primitive Data
+     1] Object 
+      eg : {}
+
+    2] Array
+
+     eg : []
+
+    3] Functions
+     
+     eg : ()
