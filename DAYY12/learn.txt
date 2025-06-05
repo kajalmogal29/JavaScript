@@ -1,0 +1,38 @@
+Array method:
+
+1. includes():
+
+          -- This method checks if an array contains a specific element.
+          -- It returns true if the element is found, and false otherwise.
+
+     In your code:
+                cities.includes("pune") will output true because "pune" is in the cities array.
+
+
+2. indexOf():
+
+        -- This method returns the first index at which a given element can be found in the array.
+        --If the element is not present, it returns -1.
+
+   In your code:
+              cities.indexOf("morve") will output -1 because "morve" is not in the cities array.
+
+
+3. toString():
+
+        ==> This method converts an array to a string by concatenating all of its elements, separated by commas.
+
+     In your code:
+              cities.toString() will output the string "pune,satara,mumbai,dellhi".
+Y
+ou also have a couple of methods commented out, but they're good to know:
+
+4. reverse():
+
+       ==> This method reverses the order of the elements in an array in place. This means it modifies the original array.
+        If you were to uncomment cities.reverse(), the cities array would become ["dellhi", "mumbai", "satara", "pune"].
+
+5. sort():
+
+        ==> This method sorts the elements of an array in place. By default, it sorts elements as strings in alphabetical (ascending) order.
+        -- If you were to uncomment cities.sort(), the cities array would be sorted alphabetically: ["dellhi", "mumbai", "pune", "satara"].
