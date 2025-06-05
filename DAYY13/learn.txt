@@ -1,0 +1,50 @@
+ Working with Object Properties in JavaScript
+
+---
+
+1. Getting Keys and Values
+
+-  Object.keys(obj)
+
+       Returns an array of all the keys (property names) in the object.
+
+
+  let obj = { name: "kajal", age: 20 };
+
+  console.log(Object.keys(obj)); // Output: ["name", "age"]
+
+
+- Object.values(obj)
+
+  Returns an array of all the values in the object.
+
+ 
+  let obj = { name: "kajal", age: 20 };
+
+     console.log(Object.values(obj)); // Output: ["kajal", 20]
+ 
+
+
+
+ 2. Adding a New Key to an Object
+
+You can add a new property to an object using dot notation or bracket notation.
+
+
+let obj = {
+    name: "komal",
+    age: 18
+};
+
+obj.city = "Nahik"; // Adds a new key 'city' with value 'Nahik'
+console.log(obj); // Output: { name: "komal", age: 18, city: "Nashik" }
+
+
+3. Deleting a Key from an Object
+
+Use the `delete` operator to remove a property from an object.
+
+
+delete obj.name; // Removes the 'name' property
+console.log(obj); // Output: { age: 18, city: "Nashik" }
+
